@@ -14,26 +14,30 @@ pkill -f ccminer 2>/dev/null
 sleep 1
 
 # Start X2 miner (core 7) - 1 thread
-echo "Starting X2 miner on core 7 (1 thread)..."
-taskset -c 7 ./ccminer-x2 -a verus -o $POOL -u ${WALLET}.X2 -t 1 > ccminer-x2.log 2>&1 &
+echo "Starting X2 miner (1 thread)..."
+./ccminer-x2 -a verus -o $POOL -u ${WALLET}.X2 -t 1 > ccminer-x2.log 2>&1 &
 X2_PID=$!
 echo "  X2 PID: $X2_PID"
+# Try to set affinity after process starts (may fail on Android/Termux without root)
+taskset -cp 7 $X2_PID 2>/dev/null && echo "  X2 pinned to core 7" || echo "  X2 affinity not set (no root access)"
 
 sleep 1
 
 # Start A710 miner (cores 4-6) - 3 threads
-echo "Starting A710 miner on cores 4-6 (3 threads)..."
-taskset -c 4-6 ./ccminer-a710 -a verus -o $POOL -u ${WALLET}.A710 -t 3 > ccminer-a710.log 2>&1 &
+echo "Starting A710 miner (3 threads)..."
+./ccminer-a710 -a verus -o $POOL -u ${WALLET}.A710 -t 3 > ccminer-a710.log 2>&1 &
 A710_PID=$!
 echo "  A710 PID: $A710_PID"
+taskset -cp 4-6 $A710_PID 2>/dev/null && echo "  A710 pinned to cores 4-6" || echo "  A710 affinity not set (no root access)"
 
 sleep 1
 
 # Start A510 miner (cores 0-3) - 4 threads
-echo "Starting A510 miner on cores 0-3 (4 threads)..."
-taskset -c 0-3 ./ccminer-a510 -a verus -o $POOL -u ${WALLET}.A510 -t 4 > ccminer-a510.log 2>&1 &
+echo "Starting A510 miner (4 threads)..."
+./ccminer-a510 -a verus -o $POOL -u ${WALLET}.A510 -t 4 > ccminer-a510.log 2>&1 &
 A510_PID=$!
 echo "  A510 PID: $A510_PID"
+taskset -cp 0-3 $A510_PID 2>/dev/null && echo "  A510 pinned to cores 0-3" || echo "  A510 affinity not set (no root access)"
 
 echo ""
 echo "======================================="
