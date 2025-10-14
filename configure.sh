@@ -4,4 +4,4 @@
 extracflags="-O3 -ffast-math -funroll-loops -finline-functions -fomit-frame-pointer -fpic -pthread -flto -fuse-ld=lld -D_REENTRANT -falign-functions=16 -falign-jumps=16 -falign-labels=16"
 
 # Option 2: Explicit -march + -mtune (recommended for max control)
-./configure CXXFLAGS="-Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize $extracflags -march=armv8.6-a+crypto+sha3+sm4+dotprod+i8mm+bf16 -mtune=cortex-a710" CFLAGS="$extracflags -march=armv8.6-a+crypto+sha3+sm4+dotprod+i8mm+bf16 -mtune=cortex-a710 -mllvm -enable-loop-distribute" CXX=clang++ CC=clang LDFLAGS="-flto -fuse-ld=lld -pthread"
+./configure CXXFLAGS="-Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize $extracflags -march=armv8.6-a+crypto+sha3+sm4+dotprod+i8mm+bf16 -mtune=cortex-a510" CFLAGS="$extracflags -march=armv8.6-a+crypto+sha3+sm4+dotprod+i8mm+bf16 -mtune=cortex-a510 -mllvm -enable-loop-distribute" CXX=clang++ CC=clang LDFLAGS="-flto -fuse-ld=lld -pthread"
