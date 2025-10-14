@@ -10,7 +10,6 @@ rm -f Makefile.in
 rm -f config.status
 ./autogen.sh || echo done
 
-CFLAGS="-O3" ./configure.sh
-
+./configure.sh
 
 make
