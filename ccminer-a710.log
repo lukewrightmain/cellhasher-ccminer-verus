@@ -1,0 +1,154 @@
+**************************************************************
+*  ccminer ARM: 3.8.3c for Verushash v2.2 based on ccminer   *
+**************************************************************
+Originally based on Christian Buchner and Christian H. project
+Adapted to Verus by Monkins1010
+Compiled and released by Oink.VRSC@
+Goto https://wiki.verus.io/#!index.md for mining setup guides. 
+Git repo located at: http://github.com/oink70/ccminer-verus 
+
+[2025-10-15 06:59:33][36m Starting on stratum+tcp://us.vipor.net:5040[0m
+[2025-10-15 06:59:33] 3 miner threads started, using 'verus' algorithm.[0m
+[2025-10-15 06:59:33][33m Stratum difficulty set to 139264[0m
+[2025-10-15 06:59:35][33m API bind to port 4068 failed - using port 4069[0m
+[2025-10-15 07:00:27] CPU T0: Verus Hashing ((null), 213.96 kH/s).[0m
+[2025-10-15 07:00:27][01;37m accepted: 1/1 (diff 204603.707), 213.96 kH/s [32myes![0m
+[2025-10-15 07:01:22] CPU T2: Verus Hashing ((null), 176.07 kH/s).[0m
+[2025-10-15 07:01:22][01;37m accepted: 2/2 (diff 1048594.000), 390.03 kH/s [32myes![0m
+[2025-10-15 07:01:23] CPU T1: Verus Hashing ((null), 174.37 kH/s).[0m
+[2025-10-15 07:01:23][01;37m accepted: 3/3 (diff 140987.429), 564.39 kH/s [32myes![0m
+[2025-10-15 07:01:25][01;37m accepted: 4/4 (diff 164485.333), 560.36 kH/s [32myes![0m
+[2025-10-15 07:01:36] CPU T1: Verus Hashing ((null), 160.77 kH/s).[0m
+[2025-10-15 07:01:36][01;37m accepted: 5/5 (diff 16777504.000), 557.17 kH/s [32myes![0m
+[2025-10-15 07:01:42] CPU T1: Verus Hashing ((null), 162.21 kH/s).[0m
+[2025-10-15 07:01:42][01;37m accepted: 6/6 (diff 151148.685), 555.94 kH/s [32myes![0m
+[2025-10-15 07:02:52] CPU T0: Verus Hashing ((null), 181.41 kH/s).[0m
+[2025-10-15 07:02:52][01;37m accepted: 7/7 (diff 430192.410), 523.39 kH/s [32myes![0m
+[2025-10-15 07:03:23][33m Stratum difficulty set to 90640.3[0m
+[2025-10-15 07:03:40] CPU T0: Verus Hashing ((null), 181.67 kH/s).[0m
+[2025-10-15 07:03:40][01;37m accepted: 8/8 (diff 381302.592), 523.52 kH/s [32myes![0m
+[2025-10-15 07:04:06] CPU T1: Verus Hashing ((null), 184.59 kH/s).[0m
+[2025-10-15 07:04:06][01;37m accepted: 9/9 (diff 118150.099), 527.26 kH/s [32myes![0m
+[2025-10-15 07:04:23][33m Stratum difficulty set to 69632[0m
+[2025-10-15 07:04:39] CPU T0: Verus Hashing ((null), 164.43 kH/s).[0m
+[2025-10-15 07:04:39][01;37m accepted: 10/10 (diff 105517.182), 521.55 kH/s [32myes![0m
+[2025-10-15 07:04:53] CPU T0: Verus Hashing ((null), 178.43 kH/s).[0m
+[2025-10-15 07:04:53][01;37m accepted: 11/11 (diff 838861.600), 522.20 kH/s [32myes![0m
+[2025-10-15 07:05:18] CPU T2: Verus Hashing ((null), 181.92 kH/s).[0m
+[2025-10-15 07:05:18][01;37m accepted: 12/12 (diff 75915.077), 525.13 kH/s [32myes![0m
+[2025-10-15 07:05:42] CPU T1: Verus Hashing ((null), 187.89 kH/s).[0m
+[2025-10-15 07:05:42][01;37m accepted: 13/13 (diff 161319.538), 528.17 kH/s [32myes![0m
+[2025-10-15 07:06:19] CPU T0: Verus Hashing ((null), 156.49 kH/s).[0m
+[2025-10-15 07:06:20][01;37m accepted: 14/14 (diff 84307.698), 524.17 kH/s [32myes![0m
+[2025-10-15 07:06:31] CPU T0: Verus Hashing ((null), 155.98 kH/s).[0m
+[2025-10-15 07:06:31][01;37m accepted: 15/15 (diff 409200.780), 521.42 kH/s [32myes![0m
+[2025-10-15 07:09:09] CPU T0: Verus Hashing ((null), 152.17 kH/s).[0m
+[2025-10-15 07:09:09][01;37m accepted: 16/16 (diff 101067.663), 518.91 kH/s [32myes![0m
+[2025-10-15 07:09:14] CPU T0: Verus Hashing ((null), 153.15 kH/s).[0m
+[2025-10-15 07:09:14][01;37m accepted: 17/17 (diff 195084.093), 517.15 kH/s [32myes![0m
+[2025-10-15 07:09:59] CPU T1: Verus Hashing ((null), 161.47 kH/s).[0m
+[2025-10-15 07:09:59][01;37m accepted: 18/18 (diff 87838.911), 515.54 kH/s [32myes![0m
+[2025-10-15 07:10:32] CPU T0: Verus Hashing ((null), 165.62 kH/s).[0m
+[2025-10-15 07:10:32][01;37m accepted: 19/19 (diff 729444.870), 515.56 kH/s [32myes![0m
+[2025-10-15 07:11:25] CPU T2: Verus Hashing ((null), 189.47 kH/s).[0m
+[2025-10-15 07:11:25][01;37m accepted: 20/20 (diff 83055.604), 519.05 kH/s [32myes![0m
+[2025-10-15 07:11:40] CPU T1: Verus Hashing ((null), 187.75 kH/s).[0m
+[2025-10-15 07:11:40][01;37m accepted: 21/21 (diff 8388616.000), 521.14 kH/s [32myes![0m
+[2025-10-15 07:11:41][01;37m accepted: 22/22 (diff 77314.433), 522.95 kH/s [32myes![0m
+[2025-10-15 07:12:29] CPU T1: Verus Hashing ((null), 161.20 kH/s).[0m
+[2025-10-15 07:12:29][01;37m accepted: 23/23 (diff 349525.667), 521.57 kH/s [32myes![0m
+[2025-10-15 07:12:45] CPU T0: Verus Hashing ((null), 178.10 kH/s).[0m
+[2025-10-15 07:12:45][01;37m accepted: 24/24 (diff 151146.234), 522.83 kH/s [32myes![0m
+[2025-10-15 07:13:47] CPU T2: Verus Hashing ((null), 171.76 kH/s).[0m
+[2025-10-15 07:13:47][01;37m accepted: 25/25 (diff 1677723.200), 520.15 kH/s [32myes![0m
+[2025-10-15 07:13:49] CPU T1: Verus Hashing ((null), 177.56 kH/s).[0m
+[2025-10-15 07:13:49][01;37m accepted: 26/26 (diff 142179.932), 520.51 kH/s [32myes![0m
+[2025-10-15 07:13:55] CPU T1: Verus Hashing ((null), 183.56 kH/s).[0m
+[2025-10-15 07:13:55][01;37m accepted: 27/27 (diff 164482.667), 521.31 kH/s [32myes![0m
+[2025-10-15 07:13:57][01;37m accepted: 28/28 (diff 305040.582), 522.15 kH/s [32myes![0m
+[2025-10-15 07:14:10] CPU T1: Verus Hashing ((null), 183.71 kH/s).[0m
+[2025-10-15 07:14:10][01;37m accepted: 29/29 (diff 932068.444), 522.73 kH/s [32myes![0m
+[2025-10-15 07:14:18] CPU T2: Verus Hashing ((null), 185.86 kH/s).[0m
+[2025-10-15 07:14:18][01;37m accepted: 30/30 (diff 322639.077), 523.94 kH/s [32myes![0m
+[2025-10-15 07:14:21] CPU T1: Verus Hashing ((null), 176.64 kH/s).[0m
+[2025-10-15 07:14:21][01;37m accepted: 31/31 (diff 69905.133), 523.97 kH/s [32myes![0m
+[2025-10-15 07:14:23][33m Stratum difficulty set to 99566.5[0m
+[2025-10-15 07:16:05][33m Stratum difficulty set to 69632[0m
+[2025-10-15 07:17:31] CPU T2: Verus Hashing ((null), 185.74 kH/s).[0m
+[2025-10-15 07:17:31][01;37m accepted: 32/32 (diff 409200.780), 524.76 kH/s [32myes![0m
+[2025-10-15 07:17:46] CPU T2: Verus Hashing ((null), 186.44 kH/s).[0m
+[2025-10-15 07:17:46][01;37m accepted: 33/33 (diff 153919.560), 525.42 kH/s [32myes![0m
+[2025-10-15 07:17:56] CPU T1: Verus Hashing ((null), 185.01 kH/s).[0m
+[2025-10-15 07:17:56][01;37m accepted: 34/34 (diff 99864.476), 525.97 kH/s [32myes![0m
+[2025-10-15 07:17:57] CPU T0: Verus Hashing ((null), 182.15 kH/s).[0m
+[2025-10-15 07:17:57][01;37m accepted: 35/35 (diff 149796.714), 527.37 kH/s [32myes![0m
+[2025-10-15 07:18:22] CPU T1: Verus Hashing ((null), 184.58 kH/s).[0m
+[2025-10-15 07:18:22][01;37m accepted: 36/36 (diff 204600.390), 527.83 kH/s [32myes![0m
+[2025-10-15 07:18:22] CPU T0: Verus Hashing ((null), 179.12 kH/s).[0m
+[2025-10-15 07:18:22][01;37m accepted: 37/37 (diff 197379.200), 528.75 kH/s [32myes![0m
+[2025-10-15 07:18:42] CPU T1: Verus Hashing ((null), 183.23 kH/s).[0m
+[2025-10-15 07:18:42][01;37m accepted: 38/38 (diff 92182.593), 529.08 kH/s [32myes![0m
+[2025-10-15 07:18:49] CPU T1: Verus Hashing ((null), 185.44 kH/s).[0m
+[2025-10-15 07:18:49][01;37m accepted: 39/39 (diff 109655.111), 529.50 kH/s [32myes![0m
+[2025-10-15 07:19:29] CPU T1: Verus Hashing ((null), 183.69 kH/s).[0m
+[2025-10-15 07:19:29][01;37m accepted: 40/40 (diff 524288.500), 529.78 kH/s [32myes![0m
+[2025-10-15 07:19:33] CPU T1: Verus Hashing ((null), 186.81 kH/s).[0m
+[2025-10-15 07:19:33][01;37m accepted: 41/41 (diff 83468.816), 530.19 kH/s [32myes![0m
+[2025-10-15 07:19:34] CPU T2: Verus Hashing ((null), 183.83 kH/s).[0m
+[2025-10-15 07:19:34][01;37m accepted: 42/42 (diff 209715.400), 530.36 kH/s [32myes![0m
+[2025-10-15 07:19:49] CPU T0: Verus Hashing ((null), 182.00 kH/s).[0m
+[2025-10-15 07:19:50][01;37m accepted: 43/43 (diff 493448.000), 531.36 kH/s [32myes![0m
+[2025-10-15 07:20:39] CPU T2: Verus Hashing ((null), 186.28 kH/s).[0m
+[2025-10-15 07:20:39][01;37m accepted: 44/44 (diff 75915.077), 531.76 kH/s [32myes![0m
+[2025-10-15 07:20:56] CPU T1: Verus Hashing ((null), 182.56 kH/s).[0m
+[2025-10-15 07:20:56][01;37m accepted: 45/45 (diff 130056.062), 531.94 kH/s [32myes![0m
+[2025-10-15 07:21:00] CPU T0: Verus Hashing ((null), 176.24 kH/s).[0m
+[2025-10-15 07:21:00][01;37m accepted: 46/46 (diff 1525202.909), 532.38 kH/s [32myes![0m
+[2025-10-15 07:21:46] CPU T0: Verus Hashing ((null), 178.24 kH/s).[0m
+[2025-10-15 07:21:46][01;37m accepted: 47/47 (diff 932068.444), 532.90 kH/s [32myes![0m
+[2025-10-15 07:23:00] CPU T1: Verus Hashing ((null), 185.58 kH/s).[0m
+[2025-10-15 07:23:00][01;37m accepted: 48/48 (diff 79512.948), 533.19 kH/s [32myes![0m
+[2025-10-15 07:24:04] CPU T0: Verus Hashing ((null), 174.75 kH/s).[0m
+[2025-10-15 07:24:04][01;37m accepted: 49/49 (diff 80659.769), 533.42 kH/s [32myes![0m
+[2025-10-15 07:24:26] CPU T0: Verus Hashing ((null), 172.74 kH/s).[0m
+[2025-10-15 07:24:26][01;37m accepted: 50/50 (diff 164482.667), 533.51 kH/s [32myes![0m
+[2025-10-15 07:25:16] CPU T1: Verus Hashing ((null), 183.46 kH/s).[0m
+[2025-10-15 07:25:16][01;37m accepted: 51/51 (diff 158275.774), 533.69 kH/s [32myes![0m
+[2025-10-15 07:26:20] CPU T2: Verus Hashing ((null), 188.61 kH/s).[0m
+[2025-10-15 07:26:20][01;37m accepted: 52/52 (diff 188508.225), 534.25 kH/s [32myes![0m
+[2025-10-15 07:26:36] CPU T0: Verus Hashing ((null), 170.26 kH/s).[0m
+[2025-10-15 07:26:36][01;37m accepted: 53/53 (diff 109655.111), 534.19 kH/s [32myes![0m
+[2025-10-15 07:27:08] CPU T0: Verus Hashing ((null), 162.37 kH/s).[0m
+[2025-10-15 07:27:08][01;37m accepted: 54/54 (diff 76260.145), 533.72 kH/s [32myes![0m
+[2025-10-15 07:27:47] CPU T1: Verus Hashing ((null), 158.18 kH/s).[0m
+[2025-10-15 07:27:47][01;37m accepted: 55/55 (diff 82241.333), 532.87 kH/s [32myes![0m
+[2025-10-15 07:27:48] CPU T0: Verus Hashing ((null), 152.78 kH/s).[0m
+[2025-10-15 07:27:48][01;37m accepted: 56/56 (diff 70197.623), 531.97 kH/s [32myes![0m
+[2025-10-15 07:27:58] CPU T2: Verus Hashing ((null), 164.97 kH/s).[0m
+[2025-10-15 07:27:58][01;37m accepted: 57/57 (diff 176602.442), 530.28 kH/s [32myes![0m
+[2025-10-15 07:28:36] CPU T1: Verus Hashing ((null), 152.43 kH/s).[0m
+[2025-10-15 07:28:36][01;37m accepted: 58/58 (diff 111107.497), 529.28 kH/s [32myes![0m
+[2025-10-15 07:29:12] CPU T2: Verus Hashing ((null), 157.19 kH/s).[0m
+[2025-10-15 07:29:12][01;37m accepted: 59/59 (diff 91180.609), 527.22 kH/s [32myes![0m
+[2025-10-15 07:29:21] CPU T2: Verus Hashing ((null), 163.91 kH/s).[0m
+[2025-10-15 07:29:21][01;37m accepted: 60/60 (diff 92691.890), 525.99 kH/s [32myes![0m
+[2025-10-15 07:29:32] CPU T1: Verus Hashing ((null), 177.71 kH/s).[0m
+[2025-10-15 07:29:32][01;37m accepted: 61/61 (diff 310689.481), 526.00 kH/s [32myes![0m
+[2025-10-15 07:29:34] CPU T0: Verus Hashing ((null), 203.02 kH/s).[0m
+[2025-10-15 07:29:34][01;37m accepted: 62/62 (diff 349525.667), 527.58 kH/s [32myes![0m
+[2025-10-15 07:29:45] CPU T1: Verus Hashing ((null), 183.07 kH/s).[0m
+[2025-10-15 07:29:45][01;37m accepted: 63/63 (diff 2796205.333), 527.78 kH/s [32myes![0m
+[2025-10-15 07:30:38] CPU T0: Verus Hashing ((null), 156.02 kH/s).[0m
+[2025-10-15 07:30:38][01;37m accepted: 64/64 (diff 184365.187), 527.08 kH/s [32myes![0m
+[2025-10-15 07:31:02] CPU T2: Verus Hashing ((null), 167.97 kH/s).[0m
+[2025-10-15 07:31:02][01;37m accepted: 65/65 (diff 139810.267), 526.32 kH/s [32myes![0m
+[2025-10-15 07:31:17] CPU T1: Verus Hashing ((null), 184.59 kH/s).[0m
+[2025-10-15 07:31:17][01;37m accepted: 66/66 (diff 1864136.889), 526.55 kH/s [32myes![0m
+[2025-10-15 07:31:52] CPU T2: Verus Hashing ((null), 187.06 kH/s).[0m
+[2025-10-15 07:31:52][01;37m accepted: 67/67 (diff 171196.245), 527.17 kH/s [32myes![0m
+[2025-10-15 07:32:26] CPU T2: Verus Hashing ((null), 160.21 kH/s).[0m
+[2025-10-15 07:32:26][01;37m accepted: 68/68 (diff 120699.511), 526.03 kH/s [32myes![0m
+[2025-10-15 07:32:28] CPU T0: Verus Hashing ((null), 153.71 kH/s).[0m
+[2025-10-15 07:32:28][01;37m accepted: 69/69 (diff 299593.429), 525.28 kH/s [32myes![0m
+[2025-10-15 07:32:45] CPU T2: Verus Hashing ((null), 174.89 kH/s).[0m
+[2025-10-15 07:32:45][01;37m accepted: 70/70 (diff 83055.604), 525.14 kH/s [32myes![0m
